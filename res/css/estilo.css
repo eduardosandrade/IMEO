@@ -1,0 +1,122 @@
+
+
+body{
+	background-color:white;
+	
+}
+
+.index{
+	background-color:#36648B;
+}
+
+#h1_nome{
+	font-weight: bold;
+	color:#36648B;
+	-webkit-text-stroke: 1px #FFF;
+}
+
+#div_index{
+	margin-top: 200px;
+}
+
+#xmlfile{
+	background-color:#373b3e;
+	color:white;
+	
+}
+
+.titulo{
+	color:white;
+}
+
+#btn_index{
+	background-color:#36648B;
+	border: 0px solid black;
+	color:white;
+}
+
+
+#cad{
+	margin-top:20px;
+	-webkit-text-stroke: 1px #36648B;
+	color:#142c40;
+	font-weight: bold;
+	font-size:50px;
+}
+
+#computador{
+	-webkit-text-stroke: 1px #36648B;
+	margin-top:20px;
+	font-size:50px;
+	margin-left:50px;
+	color:#142c40;
+	font-weight: bold;
+}
+
+.formulario{
+	margin-top:50px;
+	margin-bottom:50px;
+	border: 1px solid black;
+	color:white;
+	padding:50px;
+	background-color:#373b3e;
+}
+
+
+
+.form-horizontal label{
+	
+	
+    font-weight: bold;
+    
+}
+
+
+
+#btn_confirma_atualizar{
+    width: 200px;
+    margin:25px;
+    margin-left: 400px;
+    font-weight: bold;
+    background-color:#36648B;
+    color:white;
+}
+
+#btn_confirma_adicionar{
+    width: 200px;
+    margin:25px;
+    margin-left: 400px;
+    font-weight: bold;
+    background-color:#36648B;
+    color:white;
+}
+
+#btn_confirma_info{
+    width: 200px;
+    margin:25px;
+    margin-left: 400px;
+    font-weight: bold;
+    background-color:#36648B;
+    color:white;
+}
+
+#btn_computadores{
+	background-color:#36648B;
+	color:white;
+}
+
+
+#ativo{
+	background-color:#36648B;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+

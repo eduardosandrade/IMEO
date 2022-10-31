@@ -1,0 +1,123 @@
+
+		<body class='bg-dark'>
+		
+	
+			<div class="container start">
+				<h1 id="computador">Computadores</h1>
+			</div>
+			<div class='container start'>
+				<h1 id="cad">Mais Informações</h1>
+			</div>
+			<div class='container formulario'>
+				
+				<form class="form-horizontal" method='post' action='/imeo/computadores' id="formCadastro">
+					
+					
+					<div class="mb-3 row col-md-6 offset-md-3">
+						<label for ='ativo' class='col-sm-6 col-form-label'>Id do Usuario</label>
+							<div class="col-sm-6">
+		
+								<input type= "text" class="form-control border border-dark text-bg-secondary" disabled value = "{$usuario_id}" id = "nome" name="nome" oninvalid="this.setCustomValidity('Preencha o nome!')" oninput="setCustomValidity('')">
+         
+							</div>
+					</div>
+					
+					<div class="mb-3 row col-md-6 offset-md-3">
+						<label for ='ativo' class='col-sm-6 col-form-label'>Nome do Usuario</label>
+							<div class="col-sm-6">
+		
+								<input type= "text" class="form-control border border-dark text-bg-secondary" disabled value = "{$nome_do_usuario}" id = "nome" name="nome" oninvalid="this.setCustomValidity('Preencha o nome!')" oninput="setCustomValidity('')">
+         
+							</div>
+					</div>
+					
+					<div class="mb-3 row col-md-6 offset-md-3">
+						<label for ='ativo' class='col-sm-6 col-form-label'>Nome do Id</label>
+							<div class="col-sm-6">
+		
+								<input type= "text" class="form-control border border-dark text-bg-secondary" disabled value = "{$nome_do_id}" id = "nome" name="nome" oninvalid="this.setCustomValidity('Preencha o nome!')" oninput="setCustomValidity('')">
+         
+							</div>
+					</div>
+					
+					<div class="mb-3 row col-md-6 offset-md-3">
+						<label for ='ativo' class='col-sm-6 col-form-label'>Mac Address</label>
+							<div class="col-sm-6">
+		
+								<input type= "text" class="form-control border border-dark text-bg-secondary" disabled value = "{$mac_adr}" id = "nome" name="nome" oninvalid="this.setCustomValidity('Preencha o nome!')" oninput="setCustomValidity('')">
+         
+							</div>
+					</div>
+					
+					<div class="mb-3 row col-md-6 offset-md-3">
+						<label for ='ativo' class='col-sm-6 col-form-label'>Processador</label>
+							<div class="col-sm-6">
+		
+								<input type= "text" class="form-control border border-dark text-bg-secondary" disabled value = "{$processador}" id = "nome" name="nome" oninvalid="this.setCustomValidity('Preencha o nome!')" oninput="setCustomValidity('')">
+         
+							</div>
+					</div>
+					
+					<div class="mb-3 row col-md-6 offset-md-3">
+						<label for ='ativo' class='col-sm-6 col-form-label'>Soquete</label>
+							<div class="col-sm-6">
+		
+								<input type= "text" class="form-control border border-dark text-bg-secondary" disabled value = "{$soquete}" id = "nome" name="nome" oninvalid="this.setCustomValidity('Preencha o nome!')" oninput="setCustomValidity('')">
+         
+							</div>
+					</div>
+					
+					<div class="mb-3 row col-md-6 offset-md-3">
+						<label for ='ativo' class='col-sm-6 col-form-label'>Placa Mae</label>
+							<div class="col-sm-6">
+		
+								<input type= "text" class="form-control border border-dark text-bg-secondary" disabled value = "{$placamae}" id = "nome" name="nome" oninvalid="this.setCustomValidity('Preencha o nome!')" oninput="setCustomValidity('')">
+         
+							</div>
+					</div>
+					
+					<div class="mb-3 row col-md-6 offset-md-3">
+						<label for ='ativo' class='col-sm-6 col-form-label'>Tamanho Ram</label>
+							<div class="col-sm-6">
+		
+								<input type= "text" class="form-control border border-dark text-bg-secondary" disabled value = "{$ramsizegb}" id = "nome" name="nome" oninvalid="this.setCustomValidity('Preencha o nome!')" oninput="setCustomValidity('')">
+         
+							</div>
+					</div>
+					
+					<div class="mb-3 row col-md-6 offset-md-3">
+						<label for ='ativo' class='col-sm-6 col-form-label'>Tipo ram</label>
+							<div class="col-sm-6">
+		
+								<input type= "text" class="form-control border border-dark text-bg-secondary" disabled value = "{$ramtipo}" id = "nome" name="nome" oninvalid="this.setCustomValidity('Preencha o nome!')" oninput="setCustomValidity('')">
+         
+							</div>
+					</div>
+					
+					<div class="mb-3 row col-md-6 offset-md-3">
+						<label for ='ativo' class='col-sm-6 col-form-label'>Armazenamento</label>
+							<div class="col-sm-6">
+		
+								<input type= "text" class="form-control border border-dark text-bg-secondary" disabled value = "{$armazenamento}" id = "nome" name="nome" oninvalid="this.setCustomValidity('Preencha o nome!')" oninput="setCustomValidity('')">
+         
+							</div>
+					</div>
+					
+					
+					
+					 
+					<div class="mb-3 row">
+							<div class="col-sm-5">
+								<input type="hidden" name='validacao' value=true>
+								<button type="submit" class="btn" id="btn_confirma_info">Voltar</button>
+							</div>
+					</div>
+	
+				</form>
+			</div>
+				
+				
+		</body>
+	
+	</html>
+	
